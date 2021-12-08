@@ -58,7 +58,7 @@ def whatsapp_login():
     driver.get(Link)
     print("QR scanned")
 
-excel_data = pandas.read_excel('Recipients data.xlsx', sheet_name='Recipients')
+excel_data = pandas.read_excel('SendData.xlsx', sheet_name='Recipients')
 
 count = 0
 
